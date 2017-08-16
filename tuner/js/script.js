@@ -2,7 +2,7 @@ var timer;
 var sound;
 
 function playNote(note) {
-    sound = new Audio("resources\\" + note + ".mp3");
+    sound = new Audio("resources/" + note + ".mp3");
 	sound.play();
 }
 
