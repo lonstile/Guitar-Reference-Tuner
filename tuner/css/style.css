@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+	background-color: #554236;
+}
+
+.acoustic-guitar {
+	 background-image: url("../resources/bg.jpg");
+	 background-repeat: no-repeat;
+	 width: 600px;
+	 height: 252px;
+	 margin: 0 auto;
+}
+
+.acoustic-guitar .buttons {
+	position: relative;
+	top: 234px;
+	left: 142px;
+}
+
+.acoustic-guitar .buttons button {
+	font-size: 14px;
+	border-radius: 50%;
+	padding: 9px 15px;
+	border: 0;
+	background-color: #FFFFFF;
+	margin-left: 5px;
+	cursor: pointer;
+	font-weight: bold;
+	border-top: 3px solid transparent;
+	border-bottom: 3px solid #999999;
+}
+
+.acoustic-guitar .stop button {
+	font-size: 14px;
+	border-radius: 2px;
+	padding: 8px 12px;
+	border: 0;
+	background-color: #FFFFFF;
+	cursor: pointer;
+	font-weight: bold;
+	position: relative;
+	top: 260px;
+	left: 266px;
+	border-bottom: 2px solid #999999;
+}
+
+.acoustic-guitar .buttons button.active {		
+	border-bottom: 3px solid #FFFFFF;
+	border-top: 3px solid #999999;
+}
